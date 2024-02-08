@@ -5,16 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myFirstWebsite</title>
 
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--Local CSS-->
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
+
+    <header>
+        <!--Begin Top NavBar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--End Top NavBar-->
+    </header>
+    <main>
+
     <h1>this is my first page</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquam vero impedit ducimus cum cumque illo adipisci labore, quis at molestiae minus dolorum laudantium id modi! Modi aliquam quaerat omnis nostrum, molestiae eos vitae! Libero labore nemo porro eveniet? Sit, perspiciatis eaque labore quis nemo autem magni eius laboriosam! Provident quam odio iusto numquam delectus nihil ducimus cum explicabo voluptatum accusantium beatae nisi cumque vel, consequuntur nulla cupiditate, maiores, excepturi voluptates dignissimos. Quidem dolorum, deleniti aperiam ipsum quos dolore accusantium culpa laboriosam fugiat odit minima molestias vitae! Magnam consequatur quidem eaque nam adipisci nulla dolorum labore soluta ut aperiam? Voluptas natus ducimus debitis? Ducimus labore quo placeat illum vero autem iusto consequatur perspiciatis nam aut temporibus cupiditate assumenda officia officiis quibusdam, voluptates explicabo praesentium maxime, similique beatae et velit obcaecati sequi. Repudiandae unde aspernatur autem, ipsam facilis, sunt fugit ullam natus a totam ipsa veritatis quisquam nam tempore ab quis minima numquam, repellendus blanditiis non nesciunt. Quidem beatae doloremque, vel autem eaque, ipsa alias enim voluptate architecto molestias debitis porro corrupti accusantium, consequatur dignissimos laboriosam libero labore vitae. Rem porro provident nisi reprehenderit hic molestias enim, quos ea, voluptas corrupti deleniti unde nobis dignissimos quidem repellendus perferendis sint molestiae illo?        
+    </p>
+    </main>
+    <footer>
+        Footer goes here
+    </footer>
+
+    <div>
+    <!--Bootstrap JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
-    <h2>this is a subheading</h2>
-
-    <h3>Trying one more time.</h3>
-
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquam vero impedit ducimus cum cumque illo adipisci labore, quis at molestiae minus dolorum laudantium id modi! Modi aliquam quaerat omnis nostrum, molestiae eos vitae! Libero labore nemo porro eveniet? Sit, perspiciatis eaque labore quis nemo autem magni eius laboriosam! Provident quam odio iusto numquam delectus nihil ducimus cum explicabo voluptatum accusantium beatae nisi cumque vel, consequuntur nulla cupiditate, maiores, excepturi voluptates dignissimos. Quidem dolorum, deleniti aperiam ipsum quos dolore accusantium culpa laboriosam fugiat odit minima molestias vitae! Magnam consequatur quidem eaque nam adipisci nulla dolorum labore soluta ut aperiam? Voluptas natus ducimus debitis? Ducimus labore quo placeat illum vero autem iusto consequatur perspiciatis nam aut temporibus cupiditate assumenda officia officiis quibusdam, voluptates explicabo praesentium maxime, similique beatae et velit obcaecati sequi. Repudiandae unde aspernatur autem, ipsam facilis, sunt fugit ullam natus a totam ipsa veritatis quisquam nam tempore ab quis minima numquam, repellendus blanditiis non nesciunt. Quidem beatae doloremque, vel autem eaque, ipsa alias enim voluptate architecto molestias debitis porro corrupti accusantium, consequatur dignissimos laboriosam libero labore vitae. Rem porro provident nisi reprehenderit hic molestias enim, quos ea, voluptas corrupti deleniti unde nobis dignissimos quidem repellendus perferendis sint molestiae illo?</p>
+    <!--Local JS-->
     <script src="/js/scripts.js"></script>
+    </div>
 </body>
 </html>
