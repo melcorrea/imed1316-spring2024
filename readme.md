@@ -1,1 +1,1 @@
-## my readme file fom my web design class IMED 1316
+## My readme file from my web desgin class

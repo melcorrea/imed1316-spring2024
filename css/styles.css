@@ -1,4 +1,2 @@
-
-.imed-row {
-   background-color: orange;
-}
+@import "global.css";
+@import "main.css";
