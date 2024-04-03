@@ -72,6 +72,41 @@ color: var(--dominantColor) !important;
     color: #ffffff;
 }
 
+blockquote{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0px;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: var(--dominantColor) !important;
+}
+
+blockquote:before{
+    display: block;
+    padding-left: 10px;
+    content: "\201c";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: var(--dominantColor) !important;
+}
+
+/*space means the tags inside get affected*/
+blockquote cite{
+    color: var(--dominantColor) !important;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+/*within the blockquote tag affect whats before the cite*/
+blockquote cite:before{
+    contnt: "\2014 \2009";
+}
+
 
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
