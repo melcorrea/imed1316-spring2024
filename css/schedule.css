@@ -31,7 +31,8 @@
     text-align: center;
 }
 
-.content-table thead tr th{/*any th thats inside a tr thats inside a thead*/
+.content-table thead tr th,
+.content-table tfoot tr td{/*any th thats inside a tr thats inside a thead*/
     background-color: var(--dominantColor) !important;
     color: #ffffff;
 }
