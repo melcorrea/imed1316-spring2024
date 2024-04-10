@@ -48,3 +48,7 @@
 .content-table tbody tr:nth-of-type(even){/*Tr inside Tbody */
     background-color: #f3f3f3;
 }
+
+.content-table tbody tr:nth-of-type(odd){/*Tr inside Tbody */
+    background-color: red;
+}
