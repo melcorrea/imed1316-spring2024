@@ -32,7 +32,7 @@
 }
 
 .content-table thead tr th{/*any th thats inside a tr thats inside a thead*/
-    background-color: var(--dominantColor !important);
+    background-color: var(--dominantColor) !important;
     color: #ffffff;
 }
 
@@ -42,5 +42,9 @@
 }
 
 .content-table tbody tr{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){/*Tr inside Tbody */
+    background-color: #f3f3f3;
 }
