@@ -52,3 +52,7 @@
 .content-table tbody tr:nth-of-type(odd){/*Tr inside Tbody */
     background-color: red;
 }
+
+.content-table tfoot tr:last-of-type{
+    border-bottom: 3px solid var(--dominantColor) !important;
+}
