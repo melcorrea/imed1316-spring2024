@@ -104,7 +104,7 @@ blockquote cite{
 
 /*within the blockquote tag affect whats before the cite*/
 blockquote cite:before{
-    contnt: "\2014 \2009";
+    content: "\2014 \2009";
 }
 
 
