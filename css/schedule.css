@@ -30,3 +30,13 @@
     margin: auto;
     text-align: center;
 }
+
+.content-table thead tr th{/*any th thats inside a tr thats inside a thead*/
+    background-color: var(--dominantColor !important);
+    color: #ffffff;
+}
+
+.contant-table th,
+.content-table td{
+    padding: 12px;
+}
