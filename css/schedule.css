@@ -40,3 +40,7 @@
 .content-table td{
     padding: 12px;
 }
+
+.content-table tbody tr{
+    border-bottom: 1px solid red;
+}
