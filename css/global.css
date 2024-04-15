@@ -4,9 +4,9 @@
 /* 10% of #f8f9fa - Accent */
 
 :root {
-    --dominantColor: #cc7e92; /* var(--dominantColor) !important; */
-    --secondaryColor: #f296ad; /* var(--secondaryColor) !important; */
-    --accentColor: #732538; /* var(--accentColor) !important; */
+    --dominantColor: #6A9580; /* var(--dominantColor) !important; */
+    --secondaryColor: #806A95; /* var(--secondaryColor) !important; */
+    --accentColor: #95806A; /* var(--accentColor) !important; */
   
     /*box shadow*/
     /*cssmatic*/
